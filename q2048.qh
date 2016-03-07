@@ -1,0 +1,17 @@
+//
+//  q2048.h
+//
+
+void() q2048_init;
+void() q2048_fail;
+void() q2048_spawn;
+string(float score) q2048_get_monster_class;
+void(float monster_score, entity pos, string combined_flag) q2048_spawn_entity;
+entity() q2048_get_empty_pos;
+float(entity pos) q2048_is_free;
+void(float dir) q2048_move;
+void(float column, float row, float new_column, float new_row) q2048_move_fig;
+float() q2048_moves_possible;
+entity(float column, float row) q2048_find_fig;
+entity(float column, float row) q2048_find_pos;
+void() q2048_center_player;
