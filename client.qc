@@ -539,7 +539,9 @@ void() PutClientInServer =
 	spawn_tdeath (self.origin, self);
 	
 	// Q2048
-	
+
+	stuffcmd(self, "+lookdown");
+
 	q2048_init();
 };
 
