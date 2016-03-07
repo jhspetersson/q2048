@@ -1,7 +1,9 @@
  Q2048
 =========================
 
-Remake of 2048 game. Uses Quake engine. Tested (primarly) on DarkPlaces and QuakeSpasm.
+Remake of famous [2048](https://gabrielecirulli.github.io/2048/) game. Please check it before playing this mod if you are unfamiliar with the game concept.
+
+Mod tested (primarly) on DarkPlaces and QuakeSpasm.
 
 Use arrow keys for movement, R to restart a game, Q to center a player.
 
