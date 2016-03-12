@@ -471,6 +471,12 @@ void() worldspawn =
     precache_sound ("wizard/widle2.wav");
     precache_sound ("wizard/wpain.wav");
     precache_sound ("wizard/wsight.wav");
+
+    // sound effects
+
+    precache_sound ("ambience/thunder1.wav");
+    precache_sound ("items/health1.wav");
+
 //
 // Setup light animation tables. 'a' is total darkness, 'z' is maxbright.
 //
